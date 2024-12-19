@@ -1,0 +1,13 @@
+button{
+    border:2px solid black;
+    border-color: darkturquoise;
+    padding: 15px;
+    width:fit-content;
+    animation-name: r1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes r1 {
+    from{background-color: rgb(255, 255, 0);}
+    to{background-color: rgb(80, 255, 255);}
+}
